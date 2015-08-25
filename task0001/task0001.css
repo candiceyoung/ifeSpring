@@ -1,0 +1,163 @@
+h1 {
+    color: blue;
+}
+h2 {
+    font-size: 14px;
+}
+p {
+    font-size: 12px;
+    font-family: Arial;
+}
+img {
+    border: 2px solid black;
+}
+.center {
+    width: 960px;
+    background-color: red;
+    position: absolute;
+    margin-left: -480px;
+    left: 50%;
+    top: 50%;
+    text-indent: -9999px;
+}
+.border {
+    border: 3px solid #1A0000;
+    text-align: center;
+    width: 100px;
+    height: 50px;
+}
+#mid {
+    height: 50px;
+    background: white;
+    border-left: 1px solid #000;
+    border-right: 1px solid #000;
+}
+div.rtop {
+    display: block;
+    background: #fff;
+}
+div.rtop div {
+    display: block;
+    height: 1px;
+    overflow: hidden;
+}
+div.r1 {
+    background: #000;
+    margin: 0 3px;
+}
+div.r2 {
+    border-left: 1px solid #000;
+    border-right: 1px solid #000;
+    margin: 0 2px;
+}
+div.r3 {
+    border-left: 1px solid #000;
+    border-right: 1px solid #000;
+    margin: 0 1px;
+}
+div.rtop div.r4 {
+    border-left: 1px solid #000;
+    border-right: 1px solid #000;
+    margin: 0 1px;
+    height: 1px;
+}
+.aside {
+    float: left;
+    width: 240px;
+    background-color: #ccc;
+}
+.main {
+    margin-left: 240px;
+    background: orange;
+}
+.bottom {
+    background: black;
+    color: white;
+}
+#parent1 {
+    position: relative;
+}
+#a1 {
+    position: absolute;
+    width: 240px;
+    background-color: #ccc;
+}
+#b1 {
+    margin-left:240px;
+    background-color: orange;
+}
+#c1 {
+    background-color: black;
+    color: white;
+}
+#parent2 {
+    display: flex;
+}
+#a2 {
+    width: 240px;
+    background-color: #ccc;
+}
+#b2 {
+    flex: 1;
+    background-color: orange;
+}
+#c2 {
+    background-color: black;
+    color: white;
+}
+#left {
+    float: left;
+    width: 100px;
+    background-color: red;
+}
+#middle {
+    margin: 0 100px;
+    background-color: black;
+}
+#right {
+    float: right;
+    width: 100px;
+    background: orange;
+}
+#p {
+    padding: 0 230px 0 190px;
+}
+#m1 {
+    float: left;
+    width: 100%;
+    background-color: red;
+}
+#l1 {
+    float: left;
+    width: 190px;
+    margin-left: -100%;
+    position: relative;
+    left: -190px;
+    background-color: black;
+    color: white;
+}
+#r1 {
+    float: left;
+    width: 230px;
+    margin-left: -230px;
+    position: relative;
+    right: -230px;
+    background: orange;
+}
+p {
+    clear: left;
+}
+.container {
+    background-color: red;
+    overflow: hidden;
+    padding: 10px;
+    clear: left;
+    width: 500px;
+}
+.container div {
+    width: 100px;
+    height: 50px;
+    background-color: blue;
+    float: left;
+    margin: 5px;
+}
