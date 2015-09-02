@@ -327,3 +327,87 @@ a {
 .tag-item span {
     margin-bottom: 5px;
 }
+.about-body {
+    background-color: #E6E6E6;
+    width: 100%;
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+.about-wrapper {
+    width: 980px;
+    margin: 0 auto;
+    overflow: hidden;
+}
+.about {
+    margin-bottom:-10000px;
+    padding-bottom: 10000px;
+}
+.about-left {
+    float: left;
+    width: 487px;
+    background-color: #FFFFFF;
+    height: auto;
+}
+.about-right {
+    float: right;
+    width: 487px;
+    background-color: #FFFFFF;
+    margin-left:6px;
+}
+.info {
+    position: relative;
+    margin: 110px 130px 150px 50px;
+    padding-top: 10px;
+}
+.info img {
+    position: absolute;
+    border-radius: 50%;
+    border: 5px solid #e6e6e6;
+}
+.info-name img {
+    width: 160px;
+    left: -140px;
+    top: -160px;
+}
+.info p {
+    font-size: 14px;
+    line-height: 200%;
+}
+.info h1 {
+    position: absolute;
+    left: -200px;
+    font-size: 20px;
+    /*float: left;*/
+}
+.info-contact img {
+    left: -110px;
+    top: -120px;
+    width: 100px;
+}
+.info-educate img {
+    width: 100px;
+    left: -110px;
+    top: -120px;
+}
+.info-intern img {
+    width: 100px;
+    left: -110px;
+    top: -100px;
+}
+.info-time {
+    position: absolute;
+    left: -90px;
+    border: 5px solid #e6e6e6;
+    border-radius: 10px;
+    width: 60px;
+    color: #888;
+    background-color: #fff;
+    text-align: center;
+    margin-top: 0;
+}
+.ba-edu {
+    margin-bottom: 40px;
+}
+.grad-edu {
+    margin-bottom: 40px;
+}
